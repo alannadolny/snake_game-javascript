@@ -1,0 +1,129 @@
+.snake {
+  background-color: rgb(45, 121, 45);
+}
+
+.apple {
+  background-image: url('./images/apple.png');
+  background-repeat: no-repeat;
+}
+
+#status {
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+
+#description {
+  border: 5px double black;
+  padding: 10px;
+  margin-right: 50px;
+}
+
+.head-true {
+  background-color: white;
+}
+
+.down-true {
+  border-radius: 0 0 20px 20px;
+}
+
+.right-true {
+  border-radius: 20px 0 0 20px;
+}
+
+.up-true {
+  border-radius: 20px 20px 0 0;
+}
+
+.left-true {
+  border-radius: 0 20px 20px 0;
+}
+
+.direction-down-true {
+  position: absolute;
+  width: 50px;
+  top: -5px;
+  right: -10px;
+  z-index: 1;
+}
+
+.direction-right-true {
+  position: absolute;
+  width: 50px;
+  top: -18px;
+  right: -6px;
+  transform: rotate(-90deg);
+  z-index: 1;
+}
+
+.direction-left-true {
+  position: absolute;
+  width: 50px;
+  top: -18px;
+  right: -6px;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+
+#button {
+  text-align: end;
+}
+
+button {
+  background-color: rgb(73, 168, 73);
+  border: none;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: rgb(16, 94, 16);
+}
+
+.direction-up-true {
+  position: absolute;
+  width: 50px;
+  top: -5px;
+  right: -6px;
+  transform: rotate(180deg);
+  z-index: 1;
+}
+
+small {
+  font-size: large;
+  position: relative;
+  bottom: 10px;
+  left: 5px;
+}
+
+#boardField {
+  position: relative;
+  width: 34px;
+  height: 34px;
+}
+
+#board {
+  border: 5px double black;
+  width: 340px;
+  height: 340px;
+  position: relative;
+  bottom: 30px;
+}
+
+.App {
+  width: 95vw;
+  height: 95vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: inline-block;
+}
