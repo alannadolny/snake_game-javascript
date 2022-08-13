@@ -10,7 +10,7 @@
 
 ## URUCHOMIENIE PROJEKTU
 
-W celu uruchomienia projektu należy wejść w folder z projektem oraz wpisać:
+W celu zainstalowania zależności należy wejść w folder z projektem oraz wpisać:
 
 ```
 yarn install
@@ -45,7 +45,7 @@ Frontend:
 
 - Możliwość gry w Sneaka
 - Wąż przechodząc przez ścianę pojawia się odpowiednio po drugiej stronie
-- W miarę zjadania jabłem wąż porusza się coraz szybciej oraz staje się coraz dłuższy
+- W miarę zjadania jabłek wąż porusza się coraz szybciej oraz staje się coraz dłuższy
 - Nad planszą znajduje się licznik punktów
 - Możliwość wznowienia / zresetowania gry
 - Poruszanie się jest dostępne za pomocą klawiatury
